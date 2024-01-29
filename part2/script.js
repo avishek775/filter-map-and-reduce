@@ -65,3 +65,4 @@ const myTotal = myNums.reduce( (acc,curr) => acc+curr , 0)
 
  const priceToPay= shoppingCart.reduce((acc,item) => acc+item.price, 0);
  console.log(priceToPay)
+ 
